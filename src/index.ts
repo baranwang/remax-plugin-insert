@@ -1,7 +1,7 @@
-import { Plugin } from "@remax/types";
 import { existsSync, readFileSync } from "fs";
 import prefix from "./templates/prefix.wxml";
 import suffix from "./templates/suffix.wxml";
+import type { Plugin } from "@remax/types";
 
 export interface Options {
   prefix?: string;
