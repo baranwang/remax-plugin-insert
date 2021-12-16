@@ -32,7 +32,7 @@ module.exports = {
 };
 ```
 
-### 参数
+### [参数](/src/index.ts#L6-L11)
 
 - prefix `string` 前置插入内容，支持文本或路径，默认内容 [src/templates/prefix.wxml](/src/templates/prefix.wxml)
 
