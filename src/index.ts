@@ -9,6 +9,7 @@ export interface Options {
   include?: Array<string | RegExp>;
   exclude?: Array<string | RegExp>;
 }
+
 const defaultOptions: Options = {
   prefix,
   suffix,
