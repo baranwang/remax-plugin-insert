@@ -1,6 +1,6 @@
 {
   "name": "remax-plugin-insert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "remax page 插入自定义内容",
   "main": "dist/plugin/index.js",
   "scripts": {
