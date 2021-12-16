@@ -23,11 +23,11 @@ yarn add remax-plugin-insert
 `remax.config.js` 中引入 plugin
 
 ```javascript
-const { default: fixWechatNodes } = require("remax-plugin-insert");
+const { default: remaxPluginInsert } = require("remax-plugin-insert");
 
 module.exports = {
   // ...
-  plugins: [fixWechatNodes()],
+  plugins: [remaxPluginInsert()],
   // ...
 };
 ```
