@@ -34,9 +34,9 @@ module.exports = {
 
 ### 参数
 
-- prefix `string` 前置插入内容，支持文本或路径，默认内容 [src/templates/prefix.wxml](/blob/main/src/templates/prefix.wxml)
+- prefix `string` 前置插入内容，支持文本或路径，默认内容 [src/templates/prefix.wxml](/src/templates/prefix.wxml)
 
-- suffix `string` 后置插入内容，支持文本或路径，默认内容 [src/templates/suffix.wxml](/blob/main/src/templates/suffix.wxml)
+- suffix `string` 后置插入内容，支持文本或路径，默认内容 [src/templates/suffix.wxml](/src/templates/suffix.wxml)
 
 - include `Array<string | RegExp>` 匹配的页面，eg: `["/pages/index/index"]`
 
