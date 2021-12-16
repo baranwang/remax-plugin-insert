@@ -127,5 +127,6 @@ dist
 .pnp.*
 
 .DS_Store
-components/**/*.js*
+components/**/*.js
+components/**/*.map
 components/**/*.d.ts

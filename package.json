@@ -1,6 +1,6 @@
 {
   "name": "remax-plugin-insert",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "修复微信特殊组件",
   "main": "dist/plugin/index.js",
   "scripts": {
