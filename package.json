@@ -1,0 +1,28 @@
+{
+  "name": "remax-plugin-insert",
+  "version": "0.0.0",
+  "description": "修复微信特殊组件",
+  "main": "dist/plugin/index.js",
+  "scripts": {
+    "build:plugin": "esbuild src/index.ts --bundle --platform=node --loader:.wxml=text --outdir=dist && tsc -p src",
+    "build:components": "tsc -p components",
+    "build": "npm run build:plugin && npm run build:components"
+  },
+  "author": "baranwang",
+  "license": "MIT",
+  "devDependencies": {
+    "@remax/types": "^2.15.9",
+    "esbuild": "^0.14.5",
+    "react": "^16.14.0",
+    "remax": "^2.15.9",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0",
+    "remax": "^2.15.9"
+  },
+  "files": [
+    "dist",
+    "components"
+  ]
+}
