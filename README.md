@@ -32,12 +32,15 @@ module.exports = {
 };
 ```
 
-## 参数
+### 参数
 
-- `prefix` {string}
-- `suffix` {string}
-- `include` {Array<string | RegExp>}
-- `exclude` {Array<string | RegExp>}
+- prefix `string` 前置插入内容，支持文本或路径，默认内容 [src/templates/prefix.wxml](/blob/main/src/templates/prefix.wxml)
+
+- suffix `string` 后置插入内容，支持文本或路径，默认内容 [src/templates/suffix.wxml](/blob/main/src/templates/suffix.wxml)
+
+- include `Array<string | RegExp>` 匹配的页面，eg: `["/pages/index/index"]`
+
+- exclude `Array<string | RegExp>` 排除的页面
 
 ## 使用
 
